@@ -5,6 +5,7 @@
 .navLink {
     text-decoration: none;
     font-family: 'Alfa Slab One';
+    color: #ffffff;
 }
 
 @keyframes buttonHover {

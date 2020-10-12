@@ -1,0 +1,27 @@
+.navElement {
+    margin-left: 50px;
+}
+
+.navLink {
+    text-decoration: none;
+    font-family: 'Alfa Slab One';
+}
+
+@keyframes buttonHover {
+    0%{
+        
+        color: white;
+        
+    }
+    100%{
+        
+        color: #d6900e;
+    }
+}
+
+.navLink:hover{
+    animation: buttonHover 0.2s linear forwards; 
+}
+.navLink:visited{
+    color: #ffffff;
+}

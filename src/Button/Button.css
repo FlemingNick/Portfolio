@@ -1,0 +1,25 @@
+.custom-button{
+    border: 1px solid #ffffff;
+    padding: 10px;   
+    color: #ffffff;
+    transition: background-color 0.5s, color;
+}
+
+.custom-button-link{
+    text-decoration: none;
+    color: #ffffff;  
+}
+
+.custom-button-link:visited{
+    text-decoration: none;
+    color: #ffffff; 
+}
+
+.custom-button:hover{
+    background-color: #ffffff;
+    color: #d6900e;
+    cursor: pointer;
+}
+.custom-button:hover .custom-button-link{
+    color: #d6900e;
+}

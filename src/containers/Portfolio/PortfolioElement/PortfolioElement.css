@@ -1,0 +1,42 @@
+
+
+.portfolio-element {
+    border: 2px solid white;
+    padding: 20px;
+    min-width: 200px;
+    width: 100%;
+    color: #ffffff;
+    background-color: rgb(47, 56, 124, 0.2);
+}
+
+.portfolio-element img {
+    width: 100%;
+}
+.portfolio-headline-container {
+    display: flex;
+    justify-content: center;
+}
+.button-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media (min-width: 900px){
+    .portfolio-element {
+        border: 2px solid white;
+        margin: 20px 40px;
+        padding: 20px;
+        min-width: 200px;
+        width: 19%;
+        color: #ffffff;
+        transition: all 0.3s ease-in-out;
+    }
+    .portfolio-element:hover {
+        border: 2px solid white;
+        padding: 20px;
+        min-width: 200px;
+        color: #ffffff;
+        transform: scale(1.1);
+    }
+}

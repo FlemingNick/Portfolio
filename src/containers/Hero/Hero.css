@@ -1,0 +1,24 @@
+.hero-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    line-height:2em;
+    padding: 100px 10%;
+}
+@keyframes header-animation{
+    0%{
+        color: #ffffff;
+    }
+    100%{
+        color: #d6900e;
+    }
+}
+.header-glow{
+    animation: header-animation 2s infinite alternate;
+}
+.hero-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

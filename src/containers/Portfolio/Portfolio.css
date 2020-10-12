@@ -1,0 +1,19 @@
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10%;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+}
+.section-header{
+    font-size: 60px;
+}
+
+.portfolio-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
